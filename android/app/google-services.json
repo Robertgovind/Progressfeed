@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "218847952623",
+    "project_id": "progressfeed-96f39",
+    "storage_bucket": "progressfeed-96f39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218847952623:android:212faf92d0f31568a7651a",
+        "android_client_info": {
+          "package_name": "com.example.progressfeed"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_v6KeykOGK09_G1vxHX5NjVobKxdXqNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
