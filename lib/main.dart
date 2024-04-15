@@ -12,11 +12,11 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: const FirebaseOptions(
-      apiKey: 'AIzaSyA_v6KeykOGK09_G1vxHX5NjVobKxdXqNI',
-      appId: '1:218847952623:android:212faf92d0f31568a7651a',
-      messagingSenderId: '218847952623',
-      projectId: 'progressfeed-96f39',
-    ),
+        apiKey: 'AIzaSyA_v6KeykOGK09_G1vxHX5NjVobKxdXqNI',
+        appId: '1:218847952623:android:212faf92d0f31568a7651a',
+        messagingSenderId: '218847952623',
+        projectId: 'progressfeed-96f39',
+        storageBucket: 'progressfeed-96f39.appspot.com'),
   );
   runApp(const MyApp());
 }
@@ -30,11 +30,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Progress Feed',
       theme: ThemeData(
-        scaffoldBackgroundColor: const Color.fromARGB(255, 196, 21, 77),
+        scaffoldBackgroundColor: const Color.fromARGB(255, 104, 40, 60),
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      initialRoute: "/",
+      initialRoute: "/signupPage",
       routes: {
         "/": (context) => const HomePage(),
         "/splash_screen": (context) => SplashScreen(),
@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
         "/signupPage": (context) => const SignupPage(),
         "/user/loginPage": (context) => const UserLoginPage(),
         "/user/signupPage": (context) => const UserSignupPage(),
-        "/user/setPassword": (context) => const SetPassword(),
+        "/user/setPassword": (context) => SetPassword(),
       },
     );
   }
